@@ -3,10 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import About from './about';
 
+
+class All extends React.Component{
+  render(){
+      return(
+          <main>
+              <App/>
+              <About/>
+          </main>
+      );
+  }
+}
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <All />,
   </React.StrictMode>,
   document.getElementById('root')
 );
