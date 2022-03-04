@@ -8,9 +8,15 @@ module.exports = {
         'dim-blue':' #0c2e60',
         'active-color': 'rgba(0,0,0,.9)',
         'gradient-orange': '#ee390f',
-        'gradient-yellow': '#f9b700'
-      },
+        'gradient-yellow': '#f9b700',
+        'text-color': '#556172',
+        'grey': '#777'
+      }
     },
+    screens: {
+      'md': '991px',
+      'lg': '992px'
+    }
   },
   variants: {
     extend: {},

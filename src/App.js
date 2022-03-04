@@ -30,7 +30,7 @@ function App() {
             <li><a href='index.html' className='hover:text-orange'>Contact</a></li>
           </ul>
         </nav>
-        <button className='border-0 rounded-full p-3 px-5 text-white border-orange cursor-pointer bg-gradient-to-r from-gradient-orange to-gradient-yellow cta'>Get A Quote</button>
+        <button className='border-0 rounded-full p-3 px-5 text-white border-orange w-40 h-14 cursor-pointer bg-gradient-to-r from-gradient-orange to-gradient-yellow cta'>Get A Quote</button>
       </div>
     </header>
   );

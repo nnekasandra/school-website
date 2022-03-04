@@ -9,12 +9,47 @@ body{
 }
 .hamburger-icon{
     display: none;
-    color: rgba(0, 0, 0, 0.589);
+    color: rgba(0, 0, 0, 0.5);
 }
-.header{
-    justify-content: space-between;
+.about h1{
+    font-family: 'Poppins', sans-serif;
 }
-@media (max-width:900px) {
+.features p{
+    width: 300px;
+}
+@media (min-width:992px){
+    header{
+        background-image: url('/public/assets/xbanner.png');
+        background-repeat: no-repeat;
+        background-size: 68%;
+        background-position: top right;
+        height: 320px;
+        position: relative;
+        overflow: hidden;
+
+    }
+    .about h1{
+        width: 600px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .about p{
+        width: 500px;
+    }
+
+    /* .deco-image{
+        position: absolute;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        right: 0;
+        position: relative;
+        top: 0;
+        right: 5%;
+        bottom: 0;
+        top: auto; 
+    } */
+}
+@media (max-width:991px) {
     .hamburger-icon{
         display: block;
         font-size: 25px;
@@ -31,41 +66,28 @@ body{
         width: 100%;
         max-height: 0;
         overflow: hidden;
-      }
-      .cta{
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .cta{
           display: none;
-      }
-      #check:checked ~ nav ul{
+    }
+    #check:checked ~ nav ul{
         max-height: 400px;
     }
+    .about{
+        text-align: center;
+        margin: auto;
+    }
+    .deco-image{
+        width: 50%;
+        height: auto;
+        text-align: center;
+    }
+    .div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
-
-/* nav {
-    position: absolute;
-    background-color: #0d1137;
-    top:80px;
-    left:0;
-    width: 100%;
-    }
-    nav ul{
-    max-height: 0;
-    overflow: hidden;
-    }
-    #checkbox:checked ~ nav ul {
-    max-height: 300px;
-    padding: 15px 0;
-    transition: all 0.5s;
-    width: 50%;
-    }
-    #checkbox:checked ~ nav ul {
-    max-height: 300px;
-    padding: 15px 0;
-    transition: all 0.5s;
-    width: 50%;
-    }
-    nav{
-    position: relative;
-    top:-70px;
-    background-color: transparent;
-}
-    */
