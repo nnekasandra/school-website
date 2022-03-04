@@ -1,7 +1,6 @@
 import React from "react";
 import './App.css';
 import './index.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function About(){
     return(
         <section className="flex">
@@ -15,7 +14,7 @@ function About(){
                 </div>
             </div>
             <div>
-                <img src="./assets/banner2.png"/>
+                <img src="./assets/banner2.png" alt=""/>
             </div>
         </section>
     );
