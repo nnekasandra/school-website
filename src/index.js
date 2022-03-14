@@ -18,7 +18,7 @@ class All extends React.Component{
 }
 ReactDOM.render(
   <React.StrictMode>
-    <All />,
+    <All />
   </React.StrictMode>,
   document.getElementById('root')
 );

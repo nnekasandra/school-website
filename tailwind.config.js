@@ -10,7 +10,12 @@ module.exports = {
         'gradient-orange': '#ee390f',
         'gradient-yellow': '#f9b700',
         'text-color': '#556172',
-        'grey': '#777'
+        'grey': '#777',
+        'background': '#f7f7f7',
+        'white': '#fff',
+        'border-color': 'rgb(240, 244, 246)',
+        'heading-color': 'rgb(85, 97, 114);',
+        'gray':'#888888'
       }
     },
     screens: {
