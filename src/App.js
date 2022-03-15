@@ -1,8 +1,8 @@
-import './App.css';
 import './index.css';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { faCaretDown, faBars} from '@fortawesome/free-solid-svg-icons';
+
 function App() {
   return (
     <header className="app-header background">
