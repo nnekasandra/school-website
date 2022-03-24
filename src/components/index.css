@@ -113,7 +113,7 @@ img {
     height: 100%;
     transform: scale(1);
   }
-  .blog {
+  /* .blog {
     position: relative;
   }
   .blog-items {
@@ -129,10 +129,7 @@ img {
   .blog:hover > .blog-items {
     visibility: visible;
     height: 90px;
-  }
-  .card p {
-    /* width: 270px; */
-  }
+  } */
 }
 @media (max-width: 991px) {
   .hamburger-icon {
@@ -176,14 +173,14 @@ img {
     align-items: center;
     justify-content: center;
   }
-  .blog-items {
+  /* .blog-items {
     visibility: hidden;
     position: static;
     width: 140px;
   }
   .blog:hover > .blog-items {
     visibility: visible;
-  }
+  } */
 }
 @media (min-width: 768px) {
   .about-us,
@@ -199,4 +196,9 @@ img {
   .feature {
     display: grid;
   }
+}
+@media (max-width: 300px) {
+    .hamburger-icon{
+        left: 38px;
+    }
 }

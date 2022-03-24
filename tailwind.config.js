@@ -18,6 +18,7 @@ module.exports = {
         gray: "#888888",
         "icon-bg": "#f0f4f6",
         icon: "#fdeae5",
+        "icon-bg-2": "#fff0e0",
       },
     },
     screens: {

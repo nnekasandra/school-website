@@ -4,15 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import About from './about';
-
+// import Footer from './footer' <Footer/>;
 
 class All extends React.Component{
   render(){
-      return(
-          <main>
-              <App/>
-              <About/>
-          </main>
+      return (
+        <div>
+          <App />
+          <About />
+        </div>
       );
   }
 }
