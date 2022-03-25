@@ -19,6 +19,8 @@ module.exports = {
         "icon-bg": "#f0f4f6",
         icon: "#fdeae5",
         "icon-bg-2": "#fff0e0",
+        "orange-text": "#ff663b",
+        
       },
     },
     screens: {

@@ -21,35 +21,9 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
 }
-/* .app-header{
-    position: fixed;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 15px;
-    top: 0px;
-    z-index: 9999 !important;
-} */
-/*
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: 0.5rem 0;
-    margin: 0.125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 0.25rem;
+.hover-effect:hover{
+  filter: brightness(1.2);
 }
-*/
 .btn {
   transition: all 1s;
   position: relative;
@@ -100,9 +74,9 @@ img {
     width: 600px;
     font-family: "Poppins", sans-serif;
   }
-  .about p,
+  
   .paragraph {
-    /* width: 500px; */
+    width: 300px;
   }
   .div {
     position: relative;

@@ -102,12 +102,29 @@ function About(props) {
         <Counter type="Online Students" />
         <Counter type="Offline Students" />
       </section>
-      <section className="courses">
+      <section className="courses px-20">
         <p className="text-center">Popular Courses</p>
         <h3 className="text-center">Special Courses</h3>
         <div className="w-16 bg-orange mt-2 mr-4 height"></div>
-        <div>
-          <Course img="./assets/icon/star.svg" />
+        <div className="flex lg:flex-row flex-column gap-8">
+          <Course
+            img="./assets/special_cource_1.png"
+            author="./assets/author/author_1.png"
+            price="$130.00"
+            stack="Web Development"
+          />
+          <Course
+            img="./assets/special_cource_2.png"
+            author="./assets/author/author_2.png"
+            price="$160.00"
+            stack="Design"
+          />
+          <Course
+            img="./assets/special_cource_3.png"
+            author="./assets/author/author_3.png"
+            price="$140.00"
+            stack="WordPress"
+          />
         </div>
         {/* <hr className="text-orange mt-2 mx-72 border-2 height flex items-center justify-center"></hr> */}
       </section>
