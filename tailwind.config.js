@@ -20,7 +20,8 @@ module.exports = {
         icon: "#fdeae5",
         "icon-bg-2": "#fff0e0",
         "orange-text": "#ff663b",
-        
+        gray2: '#8a8a8a',
+        'email-border': '#dedede'
       },
     },
     screens: {

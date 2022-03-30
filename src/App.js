@@ -2,10 +2,13 @@ import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { faCaretDown, faBars } from "@fortawesome/free-solid-svg-icons";
-// import { Helmet } from "react-helmet";
 function App() {
+  let navbar = document.getElementById('header');
+  document.addEventListener('scroll', function(){
+    navbar.classList.add("app-header");
+  })
   return (
-    <header className="app-header background">
+    <header className="background" id="header">
       <div className="header flex justify-around py-4 relative background">
         <div className="logo lg:pl-8">
           <img src="assets/logo.png" alt="school logo" />

@@ -28,9 +28,15 @@ function Counter(props) {
     let timer = setInterval(increment, 50);
     return (
       <div className="text-white">
-        <p className="text-white font-bold lg:text-6xl text-4xl counter ml-10 lg:ml-3"></p>
-        <hr className="ml-10 w-16 lg:my-5 my-3 flex items-center justify-center" />
-        <p className="text-2xl tracking-wider">{props.type}</p>
+        <div className="flex items-center justify-center">
+          <p className="text-white font-bold lg:text-6xl text-4xl counter"></p>
+        </div>
+        <div className="flex items-center justify-center">
+          <hr className="w-16 lg:my-5 my-3 " />
+        </div>
+        <div className="flex items-center justify-center">
+          <p className="text-2xl tracking-wider">{props.type}</p>
+        </div>
       </div>
     );
 }

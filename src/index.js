@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import About from './about';
-// import Footer from './footer' <Footer/>;
+import Footer from './footer';
 
 class All extends React.Component{
   render(){
@@ -12,6 +12,7 @@ class All extends React.Component{
         <div>
           <App />
           <About />
+          <Footer />
         </div>
       );
   }

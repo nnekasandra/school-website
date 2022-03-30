@@ -10,6 +10,7 @@ import "./index.css";
 import Card from "./components/card";
 import Counter from "./components/counter";
 import Course from "./components/course";
+import Blog from "./components/blog";
 function About(props) {
   return (
     <div>
@@ -102,11 +103,15 @@ function About(props) {
         <Counter type="Online Students" />
         <Counter type="Offline Students" />
       </section>
-      <section className="courses px-20">
-        <p className="text-center">Popular Courses</p>
-        <h3 className="text-center">Special Courses</h3>
-        <div className="w-16 bg-orange mt-2 mr-4 height"></div>
-        <div className="flex lg:flex-row flex-column gap-8">
+      <section className="courses pt-20">
+        <p className="text-center uppercase text-sm">Popular Courses</p>
+        <h3 className="text-center font-bold lg:text-5xl text-3xl py-6 text-dim-blue">
+          Special Courses
+        </h3>
+        <div className="flex items-center justify-center">
+          <div className="w-20 bg-orange mt-2 mr-4 height"></div>
+        </div>
+        <div className="gap-8 mt-20 course">
           <Course
             img="./assets/special_cource_1.png"
             author="./assets/author/author_1.png"
@@ -126,7 +131,6 @@ function About(props) {
             stack="WordPress"
           />
         </div>
-        {/* <hr className="text-orange mt-2 mx-72 border-2 height flex items-center justify-center"></hr> */}
       </section>
       <section className="advance-section grid px-10 md:px-20 pt-24 gap-10">
         <div className="pt-14">
@@ -174,6 +178,32 @@ function About(props) {
         </div>
         <div className="feature-img">
           <img src="./assets/advance.png" alt="a reading illustration" />
+        </div>
+      </section>
+      <section className="courses pt-20 mb-20 lg:mb-36">
+        <p className="text-center uppercase text-sm">Our Blog</p>
+        <h3 className="text-center font-bold lg:text-5xl text-3xl py-6 text-dim-blue">
+          Students Blog
+        </h3>
+        <div className="flex items-center justify-center">
+          <div className="w-20 bg-orange mt-2 mr-4 height"></div>
+        </div>
+        <div className="gap-5 mt-20 course">
+          <Blog
+            img="./assets/blog/blog_1.png"
+            stack="Design"
+            title="Dry Beginning Sea Over Tree"
+          />
+          <Blog
+            img="./assets/blog/blog_2.png"
+            stack="Developing"
+            title="All Beginning Air Two Likeness"
+          />
+          <Blog
+            img="./assets/blog/blog_3.png"
+            stack="Design"
+            title="Form Day Seasons Sea Hand"
+          />
         </div>
       </section>
     </div>

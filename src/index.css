@@ -29,29 +29,6 @@ h6 {
   top: 0px;
   z-index: 9999 !important;
 }
-
-/*
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: 0.5rem 0;
-    margin: 0.125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 0.25rem;
-}
-*/
-
 .btn {
   transition: all 0.5s;
   position: relative;
@@ -81,6 +58,32 @@ h6 {
 img {
   max-width: 100%;
 }
+.email::placeholder {
+  font-size: 12px;
+  color: #888;
+}
+.email{
+  width: 100%;
+}
+.send-btn{
+  position: absolute;
+  top: 5px;
+  right: 45px;
+}
+.cards {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.span{
+  font-size: 16px;
+  font-style: normal;
+}
+@media (min-width: 1100px) {
+  /* .courses{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  } */
+}
 @media (min-width: 992px) {
   body {
     background-image: url("/public/assets/xbanner.png");
@@ -91,9 +94,17 @@ img {
   .about {
     margin-top: 150px;
   }
+  .course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .about h1 {
     width: 600px;
     font-family: "Poppins", sans-serif;
+  }
+  .courses {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .div {
     position: relative;
@@ -134,6 +145,9 @@ img {
   }
   .statistic {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .footer-section {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (max-width: 991px) {
@@ -197,6 +211,13 @@ img {
     align-items: center;
     justify-content: center;
   }
+  .course {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (min-width: 768px) {
   .about-us,
@@ -206,6 +227,19 @@ img {
   .about-us div,
   .advance-section div {
     grid-column: span 2;
+  }
+  .courses {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (max-width: 767px) {
+  .courses {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .footer-section {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 501px) and (max-width: 991px) {
@@ -225,5 +259,18 @@ img {
   .about-us {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .course {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .courses {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .footer-section {
+    grid-template-columns: 1fr;
   }
 }
