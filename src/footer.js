@@ -75,3 +75,16 @@ function Footer() {
   );
 }
 export default Footer;
+/**
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+element.style {
+    transform: translate3d(-1239px, 0px, 0px);
+    transition: all 0.25s ease 0s;
+    width: 2891px;
+}
+ */

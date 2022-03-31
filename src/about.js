@@ -11,12 +11,15 @@ import Card from "./components/card";
 import Counter from "./components/counter";
 import Course from "./components/course";
 import Blog from "./components/blog";
+import Slider from "./components/slider";
 function About(props) {
   return (
     <div>
       <section className="flex flex-col-reverse lg:flex-row lg:ml-10 pt-8 background">
         <div className="about lg:px-14">
-          <h5 className=" mb-6">EVERY CHILD YEARNS TO LEARN</h5>
+          <h5 className="mb-6 font-bold text-sm text-text-color">
+            EVERY CHILD YEARNS TO LEARN
+          </h5>
           <h1 className="text-dim-blue text-4xl lg:text-6xl font-bold mb-8 leading-12">
             Making Your Childs World Better
           </h1>
@@ -105,7 +108,7 @@ function About(props) {
       </section>
       <section className="courses pt-20">
         <p className="text-center uppercase text-sm">Popular Courses</p>
-        <h3 className="text-center font-bold lg:text-5xl text-3xl py-6 text-dim-blue">
+        <h3 className="text-center font-bold lg:text-5xl text-3xl  md:py-6 py-3 text-dim-blue">
           Special Courses
         </h3>
         <div className="flex items-center justify-center">
@@ -180,9 +183,23 @@ function About(props) {
           <img src="./assets/advance.png" alt="a reading illustration" />
         </div>
       </section>
+      <section className="testimonial lg:mt-36 mt-20">
+        <p className="text-center uppercase text-sm">Testimonials</p>
+        <h3 className="text-center font-bold lg:text-5xl text-3xl  md:py-6 py-3 text-dim-blue">
+          Happy Students
+        </h3>
+        <div className="flex items-center justify-center">
+          <div className="w-20 bg-orange mt-2 height"></div>
+        </div>
+        <div className="mt-10 md:mt-20 ">
+          <Slider img="./assets/testimonial_img_1.png" />
+          <Slider img="./assets/testimonial_img_2.png" />
+          <Slider img="./assets/testimonial_img_3.png" />
+        </div>
+      </section>
       <section className="courses pt-20 mb-20 lg:mb-36">
         <p className="text-center uppercase text-sm">Our Blog</p>
-        <h3 className="text-center font-bold lg:text-5xl text-3xl py-6 text-dim-blue">
+        <h3 className="text-center font-bold lg:text-5xl text-3xl md:py-6 py-3 text-dim-blue">
           Students Blog
         </h3>
         <div className="flex items-center justify-center">

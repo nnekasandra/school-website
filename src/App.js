@@ -3,10 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { faCaretDown, faBars } from "@fortawesome/free-solid-svg-icons";
 function App() {
-  let navbar = document.getElementById('header');
-  document.addEventListener('scroll', function(){
-    navbar.classList.add("app-header");
-  })
+  let navbar = document.getElementById("header");
+  document.addEventListener("scroll", function () {
+    if (document.documentElement.scrollTop > 40) {
+      navbar.classList.add("app-header");
+    } else {
+      navbar.classList.remove("app-header");
+    }
+  });
   return (
     <header className="background" id="header">
       <div className="header flex justify-around py-4 relative background">

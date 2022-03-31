@@ -63,6 +63,17 @@ img {
 .card-body:hover {
   box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.125);
 }
+.testimonial-slider{
+  box-shadow: 0 10px 30px 0 rgba(12,46,96,.1);
+  font-family: "Roboto", sans-serif;
+}
+.testimonial-slider p{
+  font-size: 15px;
+}
+.testimonial-slider h5{
+  font-size: 14px;
+}
+
 @media (min-width: 992px) {
   body {
     background-image: url("/public/assets/xbanner.png");
