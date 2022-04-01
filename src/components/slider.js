@@ -1,9 +1,13 @@
 import React from "react";
 function Slider(props){
+  const slides = document.getElementsByClassName("testimonial-slide");
+  for (let i = 0; i < slides.length; i++) {
+    // slides[0].style.display = "none";
+  }
     return (
       <div>
-        <div className="flex gap-5">
-          <div className="p-10 testimonial-slider">
+        <div className="flex gap-10 testimonial-slide">
+          <div className="p-10">
             <p className="text-gray italic">
               Behold place was a multiply creeping creature his domin to thiren
               open void hath herb divided divide creepeth living shall i call

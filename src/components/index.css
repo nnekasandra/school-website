@@ -190,3 +190,8 @@ img {
     left: 38px;
   }
 }
+@media (max-width: 600px){
+  .testimonial-slide{
+    flex-direction: column;
+  }
+}

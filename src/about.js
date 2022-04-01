@@ -191,10 +191,24 @@ function About(props) {
         <div className="flex items-center justify-center">
           <div className="w-20 bg-orange mt-2 height"></div>
         </div>
-        <div className="mt-10 md:mt-20 ">
-          <Slider img="./assets/testimonial_img_1.png" />
-          <Slider img="./assets/testimonial_img_2.png" />
-          <Slider img="./assets/testimonial_img_3.png" />
+        <div className="mt-10 md:mt-20 testimonial-slider  lg:flex gap-5">
+          <Slider
+            img="./assets/testimonial_img_1.png"
+            className="testimonial-content"
+          />
+          <Slider
+            img="./assets/testimonial_img_2.png"
+            className="testimonial-content"
+          />
+          <Slider
+            img="./assets/testimonial_img_3.png"
+            className="testimonial-content"
+          />
+        </div>
+        <div>
+          <button className="dot"></button>
+          <button className="dot"></button>
+          <button className="dot"></button>
         </div>
       </section>
       <section className="courses pt-20 mb-20 lg:mb-36">
