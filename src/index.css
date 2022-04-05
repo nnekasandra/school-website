@@ -98,10 +98,11 @@ img {
   font-size: 16px;
   font-style: normal;
 }
-/* .testimonial-slider{
-  width: 600px;
+#slider{
+  width: 100%;
   overflow-x: scroll;
-} */
+}
+
 @media (min-width: 992px) {
   body {
     background-image: url("/public/assets/xbanner.png");

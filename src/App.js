@@ -83,3 +83,14 @@ function App() {
 }
 
 export default App;
+/**
+ * 
+ * body > section.testimonial_part > div > div:nth-child(2) > div > div > div.owl-stage-outer > div
+ * 
+element.style {
+    transform: translate3d(-342px, 0px, 0px);
+    transition: all 0.25s ease 0s;
+    width: 1197px;
+}
+.owl-carousel .ow
+ */

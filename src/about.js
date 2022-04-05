@@ -13,6 +13,14 @@ import Course from "./components/course";
 import Blog from "./components/blog";
 import Slider from "./components/slider";
 function About(props) {
+  let div = document.getElementById("slider");
+  let width = 600;
+  function scroller() {
+    // console.log(div.scrollLeft);
+    div.scrollLeft = (div.scrollLeft + 200) % width;
+    // console.log(div.scrollLeft);
+  }
+  setInterval(scroller, 1000);
   return (
     <div>
       <section className="flex flex-col-reverse lg:flex-row lg:ml-10 pt-8 background">
@@ -191,7 +199,7 @@ function About(props) {
         <div className="flex items-center justify-center">
           <div className="w-20 bg-orange mt-2 height"></div>
         </div>
-        <div className="mt-10 md:mt-20 testimonial-slider  lg:flex gap-5">
+        <div className="mt-10 md:mt-20 lg:flex gap-5" id="slider">
           <Slider
             img="./assets/testimonial_img_1.png"
             className="testimonial-content"
