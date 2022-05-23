@@ -26,3 +26,12 @@ function Slider(props) {
   );
 }
 export default Slider;
+/**
+ * 
+ * let div = document.getElementById("slider");
+  let width = 600;
+  function scroller() {
+    div.scrollLeft = (div.scrollLeft + 200) % width;
+  }
+  setInterval(scroller, 1000);
+ */

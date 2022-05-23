@@ -1,13 +1,15 @@
-import React from "react";
-import { faHeart, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHeart,
+  faAngleRight,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faTwitter,
   faFacebook,
   faInstagram,
   faSnapchat,
 } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-function Footer() {
+const Footer = () => {
   return (
     <footer className="bg-background">
       <section className="grid mx-1 md:gap-20 gap-10 py-20 footer-section courses">
@@ -53,12 +55,12 @@ function Footer() {
             Contact us
           </h5>
           <address className="text-sm text-gray leading-6 pb-5">
-            <span className="text-dim-blue span">Address :</span> Hath of it
-            fly signs bear be one blessed after
+            <span className="text-dim-blue span">Address :</span> Hath of it fly
+            signs bear be one blessed after
           </address>
           <p className="text-sm text-gray leading-6 pb-5">
-            <span className="text-dim-blue text-lg span">Phone :</span> +2 36 265
-            (8060)
+            <span className="text-dim-blue text-lg span">Phone :</span> +2 36
+            265 (8060)
           </p>
           <p className="text-sm text-gray leading-6">
             <span className="text-dim-blue text-lg span">Email :</span>
@@ -73,18 +75,5 @@ function Footer() {
       </p>
     </footer>
   );
-}
+};
 export default Footer;
-/**
- * 
- * 
- * 
- * 
- * 
- * 
-element.style {
-    transform: translate3d(-1239px, 0px, 0px);
-    transition: all 0.25s ease 0s;
-    width: 2891px;
-}
- */

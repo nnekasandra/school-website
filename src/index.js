@@ -3,17 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import About from './about';
-import Footer from './footer';
-
 class All extends React.Component{
   render(){
       return (
-        <div>
-          <App />
-          <About />
-          <Footer />
-        </div>
+        <App/>
       );
   }
 }
